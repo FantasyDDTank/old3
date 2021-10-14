@@ -303,7 +303,7 @@ body.lock {
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border-radius: 6px;
+    border-radius: 8px;
     background: #0030A7;
     color: #fff;
     border: none;
@@ -449,7 +449,7 @@ body.lock {
     padding-right: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border-radius: 6px;
+    border-radius: 8px;
     background: #0030A7;
     color: #fff;
     border: none;
@@ -603,7 +603,7 @@ main{
 .main .main-module .section-content {
     max-width: 980px;
     margin: 0 auto;
-    padding: 0 18px 38px 18px;
+    padding: 0 18px 44px 18px;
 }
 
 .main .main-module .section-content .wrapper{
@@ -615,7 +615,7 @@ main{
     text-align: center;
     z-index: 500;
     position: fixed;
-    bottom: 9px;
+    bottom: 14px;
     left: 0;
     right: 0;
 }
@@ -631,7 +631,7 @@ main{
     backdrop-filter: saturate(180%) blur(20px);
     max-width: fit-content;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 15px;
     margin: 0 auto;
 }
 
@@ -656,7 +656,7 @@ main{
     display: inline-flex;
     box-sizing: border-box;
     position: relative;
-    height: calc(40px - 8px);
+    height: calc(36px - 8px);
     margin: 0 auto;
 }
 
@@ -670,7 +670,7 @@ main{
     z-index: 2;
     box-sizing: border-box;
     -webkit-appearance: none;
-    padding: 0 16px;
+    padding: 0 16px 1px 16px;
     text-align: center;
     color: #5d6164;
     transition: color 275ms;
@@ -707,8 +707,8 @@ main{
 .segmentnav-selection-background {
     position: absolute;
     z-index: 1;
-    height: 32px;
-    min-width: 32px;
+    height: 28px;
+    min-width: 28px;
     background-color: rgba(120,120,120,.6);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
