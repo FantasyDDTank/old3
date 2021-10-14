@@ -694,6 +694,7 @@ main{
     -ms-overflow-style: none;
     flex-basis: 50%;
     padding: 4px;
+    border-radius: 15px;
 }
 
 .main .main-module .section-content .wrapper .wrapper-container .wrapper-background .wrapper-box::-webkit-scrollbar{
