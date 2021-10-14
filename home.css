@@ -21,7 +21,7 @@ body.lock {
 /* Header */
 #header{
     position: fixed;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.72);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     top: 0;
@@ -421,6 +421,14 @@ body.lock {
         transition: opacity .2386s cubic-bezier(0.52, 0.16, 0.52, 0.84) .09s,transform .42827s cubic-bezier(0.52, 0.16, 0.52, 0.84) .069s;
         transition: opacity .2386s cubic-bezier(0.52, 0.16, 0.52, 0.84) .09s,transform .42827s cubic-bezier(0.52, 0.16, 0.52, 0.84) .069s,-webkit-transform .42827s cubic-bezier(0.52, 0.16, 0.52, 0.84) .069s;
     }
+    #header .header-item-menu:nth-child(6) {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-transition: opacity .22581s cubic-bezier(0.52, 0.16, 0.52, 0.84) .07s,-webkit-transform .42259s cubic-bezier(0.52, 0.16, 0.52, 0.84) .056s;
+        transition: opacity .22581s cubic-bezier(0.52, 0.16, 0.52, 0.84) .07s,-webkit-transform .42259s cubic-bezier(0.52, 0.16, 0.52, 0.84) .056s;
+        transition: opacity .22581s cubic-bezier(0.52, 0.16, 0.52, 0.84) .07s,transform .42259s cubic-bezier(0.52, 0.16, 0.52, 0.84) .056s;
+        transition: opacity .22581s cubic-bezier(0.52, 0.16, 0.52, 0.84) .07s,transform .42259s cubic-bezier(0.52, 0.16, 0.52, 0.84) .056s,-webkit-transform .42259s cubic-bezier(0.52, 0.16, 0.52, 0.84) .056s;
+    }
     #header .header-item-menu .header-link {
         background-position: left center;
         display: block;
@@ -480,6 +488,12 @@ body.lock {
         transition: opacity .34577s cubic-bezier(0.32, 0.08, 0.24, 1) .09s,-webkit-transform .39692s cubic-bezier(0.32, 0.08, 0.24, 1) .08s;
         transition: opacity .34577s cubic-bezier(0.32, 0.08, 0.24, 1) .09s,transform .39692s cubic-bezier(0.32, 0.08, 0.24, 1) .08s;
         transition: opacity .34577s cubic-bezier(0.32, 0.08, 0.24, 1) .09s,transform .39692s cubic-bezier(0.32, 0.08, 0.24, 1) .08s,-webkit-transform .39692s cubic-bezier(0.32, 0.08, 0.24, 1) .08s;
+    }
+    #header .header-item-menu:nth-child(6){
+        -webkit-transition: opacity .35577s cubic-bezier(0.32, 0.08, 0.24, 1) .11s,-webkit-transform .42286s cubic-bezier(0.32, 0.08, 0.24, 1) .1s;
+        transition: opacity .35577s cubic-bezier(0.32, 0.08, 0.24, 1) .11s,-webkit-transform .42286s cubic-bezier(0.32, 0.08, 0.24, 1) .1s;
+        transition: opacity .35577s cubic-bezier(0.32, 0.08, 0.24, 1) .11s,transform .42286s cubic-bezier(0.32, 0.08, 0.24, 1) .1s;
+        transition: opacity .35577s cubic-bezier(0.32, 0.08, 0.24, 1) .11s,transform .42286s cubic-bezier(0.32, 0.08, 0.24, 1) .1s,-webkit-transform .42286s cubic-bezier(0.32, 0.08, 0.24, 1) .1s;
     }
 }
 
@@ -1016,6 +1030,31 @@ main{
 .main .main-module .section-content .links-content .contain-container .small-container .container .content ul .sub-content{
     list-style-type: none;
 }
+
+.main .main-module .section-content .links-content .contain-container .small-container .container .content .NTC{
+    font-size: 14px;
+    font-family: "Helvetica","Arial","Microsoft YaHei",sans-serif;
+    line-height: 19px;
+    font-weight: normal;
+    color: #1962e0;
+}
+
+.main .main-module .section-content .links-content .contain-container .small-container .container .content .ATT{
+    font-size: 14px;
+    font-family: "Helvetica","Arial","Microsoft YaHei",sans-serif;
+    line-height: 19px;
+    font-weight: normal;
+    color: #e01962;
+}
+
+.main .main-module .section-content .links-content .contain-container .small-container .container .content .JY{
+    font-size: 14px;
+    font-family: "Helvetica","Arial","Microsoft YaHei",sans-serif;
+    line-height: 19px;
+    font-weight: normal;
+    color: #1c750e;
+}
+
 
 .grid-container {
     padding-top: 12px;
