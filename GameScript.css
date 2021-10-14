@@ -341,12 +341,6 @@ body.lock {
     border: none;
 }
 
-#header .header-link .link:hover{
-    color: #F9A700;
-    transition-timing-function: ease-in;
-    transition-duration: .5s;
-}
-
 @media only screen and (max-width: 1044px){
     #header{
         min-width: 320px;
@@ -509,9 +503,6 @@ body.lock {
     background: #0030A7;
     color: #fff;
     border: none;
-    }
-    #header .header-link .link:hover{
-        display: none;
     }
     #header .header-list{
         visibility: visible;
