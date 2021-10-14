@@ -879,7 +879,7 @@ main{
     margin: 18px 0;
 }
 
-.main .main-module .section-content .links-content .search-container #myInput{
+.main .main-module .section-content .links-content .search-container #myInput, .main .main-module .section-content .links-content .search-container #myInput2{
     width: calc(100% - 40px);
     font-size: 18px;
     padding: 8px 20px;
