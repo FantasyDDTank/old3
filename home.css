@@ -324,6 +324,18 @@ body.lock {
         -webkit-transition: background .44s .2s cubic-bezier(0.52, 0.16, 0.24, 1),height .56s cubic-bezier(0.52, 0.16, 0.24, 1);
         transition: background .44s .2s cubic-bezier(0.52, 0.16, 0.24, 1),height .56s cubic-bezier(0.52, 0.16, 0.24, 1);
     }
+    #header:after{
+        margin-left: 0;
+        left: 0;
+        width: 100%;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 99%;
+        height: 1px;
+        z-index: 1;
+        background-color: rgba(0,0,0,0.16);
+    }
     #header.active{
         height: 100%;
         background: #fff;
