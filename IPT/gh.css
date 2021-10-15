@@ -925,6 +925,8 @@ main {
 .main .main-module .section-content .links-content .contain-container .information .container {
     margin: 0 15px;
     text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .main .main-module .section-content .links-content .contain-container .small-container .container .content img {
