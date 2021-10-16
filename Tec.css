@@ -800,6 +800,10 @@ main {
     color: #fff;
 }
 
+.main .main-module .section-content .wrapper .wrapper-container .wrapper-background .wrapper-box .box button#six.active {
+    color: #fff;
+}
+
 .segmentnav-selection-background {
     position: absolute;
     z-index: 1;
@@ -835,6 +839,11 @@ main {
 .main .main-module .section-content .wrapper .wrapper-container .wrapper-background .wrapper-box .box button#five.active~.segmentnav-selection-background {
     width: 90px;
     transform: translateX(360px);
+}
+
+.main .main-module .section-content .wrapper .wrapper-container .wrapper-background .wrapper-box .box button#six.active~.segmentnav-selection-background {
+    width: 90px;
+    transform: translateX(450px);
 }
 
 /* 技术赛  */
