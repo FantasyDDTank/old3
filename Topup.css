@@ -377,6 +377,10 @@ body.lock {
         transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1), height .56s cubic-bezier(0.52, 0.16, 0.24, 1);
     }
 
+    #header.active:after {
+        display: none;
+    }
+
     #header .header-content {
         padding: 0;
         position: absolute;
@@ -955,6 +959,26 @@ main {
     padding-bottom: 22px;
     border-bottom: 1px solid #e8e8ed;
     color: #0030A7;
+}
+
+.compare-section .compare-row .compare-column .gt-button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: normal;
+    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+    min-width: 28px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 12px;
+    background: #F97300;
+    color: #fff;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 1068px) {

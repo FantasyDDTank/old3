@@ -377,6 +377,10 @@ body.lock {
         transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1), height .56s cubic-bezier(0.52, 0.16, 0.24, 1);
     }
 
+    #header.active:after {
+        display: none;
+    }
+
     #header .header-content {
         padding: 0;
         position: absolute;

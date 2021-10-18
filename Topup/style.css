@@ -8,7 +8,7 @@
 body {
     font-size: 17px;
     font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-    background-color: #f2f2f2;
+    background-color: #fff;
     color: #1d1d1f;
     font-style: normal;
 }
@@ -629,7 +629,7 @@ main {
     max-width: 2560px;
     margin: 0 auto;
     padding-top: 54px;
-    background-color: #f2f2f2;
+    background-color: #fff;
     width: 100%;
 }
 
@@ -690,7 +690,7 @@ main {
 /* Main-Content */
 .main .main-module {
     position: relative;
-    background-color: #f2f2f2;
+    background-color: #fff;
     text-align: left;
     width: 100%;
 }
@@ -698,341 +698,236 @@ main {
 .main .main-module .section-content {
     max-width: 980px;
     margin: 0 auto;
-    padding: 0 18px 44px 18px;
+    padding: 0 18px 25px 18px;
 }
 
-.main .main-module .section-content .contain-container {
+/* 配套 */
+.flagship-buyflow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
-    height: auto;
-    margin: 18px 0;
-    position: relative;
+    min-height: 1000px;
 }
 
-.main .main-module .section-content .contain-container .grid-container {
-    display: grid;
-    grid-gap: 40px;
-    grid-template-areas: "";
-    -ms-grid-columns: ;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    margin: 0 auto;
+.flagship-buyflow .column {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
 }
 
-@media only screen and (max-width: 767px) {
-    .main .main-module .section-content .contain-container .grid-container {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-areas: "";
-        -ms-grid-columns: ;
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        margin: 0 auto;
+.large-1 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.large-2 {
+    flex-basis: 42%;
+    max-width: 42%;
+}
+
+.large-3 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.large-4 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.flagship-buyflow .large-offset {
+    margin-left: 8%;
+}
+
+
+@media only screen and (max-width: 734px) {
+    .large-2 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .large-4 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .flagship-buyflow .large-offset {
+        margin-left: 0;
     }
 }
 
-.main .main-module .section-content .contain-container .grid-container .small-container {
-    width: 100%;
-    height: auto;
-    padding: 14px 0;
-    position: relative;
-    background-color: #fff;
-    border: none;
-    border-radius: 12px;
+.flagship-sticky {
+    position: sticky;
+    top: 54px;
 }
 
-.main .main-module .section-content .contain-container .grid-container .information {
-    width: calc(100% - 2px);
-    height: auto;
-    padding: 14px 0;
-    position: relative;
-    background-color: #fff;
-    border: 1px solid #F97300;
-    border-radius: 12px;
-}
-
-.main .main-module .section-content .contain-container .grid-container .small-container .container {
-    margin: 0 15px;
-}
-
-.main .main-module .section-content .contain-container .grid-container .small-container .container .title {
-    font-size: 36px;
-    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-    line-height: 46px;
-    font-weight: bold;
-    color: #0030A7;
-    text-align: center;
-}
-
-.main .main-module .section-content .contain-container .grid-container .small-container .container .content {
-    font-size: 16px;
-    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-    line-height: 26px;
+.flagship-product-header {
+    font-size: 14px;
+    line-height: 18px;
     font-weight: normal;
-    color: #000;
-    text-align: center;
-}
-
-.main .main-module .section-content .contain-container .grid-container .small-container .container form {
-    padding: 20px 0;
-}
-
-.main .main-module .section-content .contain-container .grid-container .signin {
-    width: 100%;
-    height: auto;
-    position: relative;
-    background-color: none;
-    border: none;
-    border-radius: none;
-}
-
-.main .main-module .section-content .contain-container .grid-container .signin .container .signin-title {
-    font-size: 36px;
     font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-    line-height: 46px;
+    padding-top: 40px;
+}
+
+.flagship-product-header h1 {
+    font-size: 40px;
+    line-height: 44px;
     font-weight: bold;
-    color: #1d1d1f;
-    text-align: left;
-    padding-bottom: 60px;
+    letter-spacing: 0;
+    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+    padding-bottom: 11px;
 }
 
-@media only screen and (max-width: 767px) {
-    .main .main-module .section-content .contain-container .grid-container .small-container .container .title {
-        font-size: 28px;
-        font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-        line-height: 38px;
-        font-weight: bold;
-        color: #0030A7;
-        text-align: center;
-    }
-
-    .main .main-module .section-content .contain-container .grid-container .signin .container .signin-title {
-        font-size: 28px;
-        font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-        line-height: 38px;
-        font-weight: bold;
-        color: #1d1d1f;
-        text-align: left;
-        padding-bottom: 40px;
-    }
+.flagship-productselection {
+    padding: 40px 0 0;
 }
 
-/* LABEL */
-
-.form-textbox {
-    position: relative
+.flagship-smallcontainer {
+    position: relative;
+    min-height: 66px;
+    border-bottom: 1px solid #d2d2d7;
 }
 
-.form-textbox .form-textbox-input {
-    color: #1d1d1f;
-    border-color: #d2d2d7;
-    background-color: hsla(0, 0%, 100%, .8);
-    text-overflow: ellipsis
+.flagship-smallcontainer.last {
+    border-bottom: 0;
 }
 
-.form-textbox .form-textbox-input textarea {
-    color: #1d1d1f;
-    background-color: initial
+.buyflow-container {
+    padding: 0 5px;
 }
 
-.form-textbox .form-textbox-input.disabled,
-.form-textbox .form-textbox-input:disabled {
-    color: #86868b;
-    -webkit-text-fill-color: #86868b;
-    background-color: rgba(0, 0, 0, .02)
+.buyflow-container fieldset {
+    margin-top: 0;
+    padding: 0 0 26px;
+    border: 0;
 }
 
-.form-textbox .form-textbox-input.disabled textarea,
-.form-textbox .form-textbox-input:disabled textarea {
-    color: #86868b;
-    -webkit-text-fill-color: #86868b
+.buyflow-header {
+    font-size: 17px;
+    line-height: 21px;
+    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
 }
 
-.form-textbox .form-textbox-input:-webkit-autofill {
-    color: #1d1d1f;
-    caret-color: #1d1d1f;
-    -webkit-text-fill-color: #1d1d1f;
-    box-shadow: inset 0 0 0 100px #fffef2;
-    border-color: #ffe045
+.buyflow-header.first {
+    padding-top: 0px;
 }
 
-.form-textbox .form-textbox-input:-webkit-autofill:focus {
-    box-shadow: 0 0 0 4px rgba(249, 208, 0, .6), inset 0 0 0 100px #fffef2
+.buyflow-selector-group {
+    list-style: none;
+    width: auto;
+    margin-top: 0;
+    margin-left: -7px;
+    margin-right: -7px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.form-textbox .form-textbox-input.focused,
-.form-textbox .form-textbox-input:focus {
-    border-color: #1d1d1f;
+.form-selector {
+    position: relative;
+    display: flex;
+    margin-top: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
+    box-sizing: border-box;
 }
 
-.form-textbox .form-textbox-input::placeholder {
-    color: #6e6e73
+.form-selector .form-selector-input:hover~.form-selector-label {
+    border-color: #86868b
 }
 
-.form-textbox .form-textbox-input::-webkit-contacts-auto-fill-button,
-.form-textbox .form-textbox-input::-webkit-credentials-auto-fill-button {
-    background-color: #1d1d1f
+.form-selector .form-selector-input:checked~.form-selector-label {
+    border-color: #0071e3
 }
 
-.form-textbox .form-textbox-input:not(:disabled).focused~.form-textbox-label,
-.form-textbox .form-textbox-input:not(:disabled).form-textbox-entered~.form-textbox-label,
-.form-textbox .form-textbox-input:not(:disabled):focus~.form-textbox-label,
-.form-textbox .form-textbox-input:not(:disabled):valid[required]~.form-textbox-label,
-.form-textbox .form-textbox-input:not(:disabled)[placeholder]:not(:placeholder-shown)~.form-textbox-label,
-.form-textbox .form-textbox-input:not(:disabled)[placeholder]:not([placeholder=" "])~.form-textbox-label {
-    color: #6e6e73
+.form-selector .form-selector-input.focused~.form-selector-label,
+.form-selector .form-selector-input:focus~.form-selector-label {
+    border-color: #0071e3;
+    box-shadow: 0 0 0 4px rgba(0, 125, 250, .6)
 }
 
-.form-textbox.is-error .form-textbox-input:not(:focus) {
-    border-color: #e30000;
-    background-color: #fff2f4
+.form-selector-input {
+    position: absolute;
+    opacity: 0;
 }
 
-.form-textbox.is-error .form-textbox-input:not(:disabled).focused~.form-textbox-label,
-.form-textbox.is-error .form-textbox-input:not(:disabled).form-textbox-entered~.form-textbox-label,
-.form-textbox.is-error .form-textbox-input:not(:disabled):focus~.form-textbox-label,
-.form-textbox.is-error .form-textbox-input:not(:disabled):valid[required]~.form-textbox-label,
-.form-textbox.is-error .form-textbox-input:not(:disabled)[placeholder]:not(:placeholder-shown)~.form-textbox-label,
-.form-textbox.is-error .form-textbox-input:not(:disabled)[placeholder]:not([placeholder=" "])~.form-textbox-label,
-.form-textbox.is-error .form-textbox-label {
-    color: #e30000
+.form-selector .form-selector-input:disabled~.form-selector-label {
+    border-color: #d2d2d7
 }
 
-.form-textbox-input {
-    font-size: 16px;
-    line-height: 20px;
+.form-selector-input:disabled~.form-selector-label {
+    opacity: .32;
+    cursor: auto
+}
+
+.form-selector-input.focused~.form-selector-label,
+.form-selector-input:checked~.form-selector-label,
+.form-selector-input:focus~.form-selector-label {
+    outline: none;
+    border-width: 2px;
+    padding: 14px
+}
+
+.form-selector-label {
+    font-size: 17px;
+    line-height: 21px;
     font-weight: normal;
     font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
     width: 100%;
-    height: 56px;
+    height: auto;
     border-radius: 12px;
     border-width: 1px;
     border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
     box-sizing: border-box;
-    padding: 18px 16px 0;
-    margin-bottom: 14px;
+    cursor: pointer;
+    color: #1d1d1f;
+    border-color: #d2d2d7;
+    background-color: rgba(255, 255, 255, .8);
+    min-height: 103px;
+}
+
+.form-selector-label img {
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+.relatedlink {
+    background: #f5f5f7;
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 14px 0;
+    margin: 20px 0 6px;
     text-align: left;
-    -webkit-appearance: none;
-    appearance: none
 }
 
-.form-textbox-input.focused~.form-textbox-label,
-.form-textbox-input.form-textbox-entered~.form-textbox-label,
-.form-textbox-input:focus~.form-textbox-label,
-.form-textbox-input:valid[required]~.form-textbox-label,
-.form-textbox-input[placeholder]:not(:placeholder-shown)~.form-textbox-label,
-.form-textbox-input[placeholder]:not([placeholder=" "])~.form-textbox-label {
+.relatedlink .detail {
     font-size: 12px;
     line-height: 16px;
     font-weight: normal;
     font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-    top: 10px;
-}
-
-.form-textbox-input.form-textbox-entered~.form-textbox-lefticon .icon-check,
-.form-textbox-input.form-textbox-entered~.form-textbox-righticon .icon-check,
-.form-textbox-input:valid[required]~.form-textbox-lefticon .icon-check,
-.form-textbox-input:valid[required]~.form-textbox-righticon .icon-check {
-    display: block
-}
-
-.is-error .form-textbox-input.form-textbox-entered~.form-textbox-lefticon .icon-check,
-.is-error .form-textbox-input.form-textbox-entered~.form-textbox-righticon .icon-check,
-.is-error .form-textbox-input:valid[required]~.form-textbox-lefticon .icon-check,
-.is-error .form-textbox-input:valid[required]~.form-textbox-righticon .icon-check {
-    display: none
-}
-
-.form-textbox-input.focused~.form-textbox-counter-wrapper,
-.form-textbox-input.form-textbox-entered~.form-textbox-counter-wrapper,
-.form-textbox-input.is-error~.form-textbox-counter-wrapper,
-.form-textbox-input:focus~.form-textbox-counter-wrapper,
-.form-textbox-input:valid[required]~.form-textbox-counter-wrapper {
-    display: block
-}
-
-.form-textbox-input.focused,
-.form-textbox-input:focus {
-    box-shadow: 0 0 0 4px rgba(249, 208, 0, .6);
-    outline: none
-}
-
-.is-error .form-textbox-input {
-    margin-bottom: 0
-}
-
-.form-textbox-label {
-    position: absolute;
-    pointer-events: none;
-    transition-timing-function: ease-in;
-    transition-duration: .125s;
-    top: 18px;
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: calc(100% - 32px);
-    left: 17px;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: normal;
-    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-}
-
-.form-message-wrapper {
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: normal;
-    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-    color: #e30000;
+    display: flex;
+    align-items: flex-start;
     position: relative;
-    margin-top: 9px;
-    margin-bottom: 12px;
-    display: none;
+    padding: 0 18px;
 }
 
-.form-message-wrapper:after,
-.form-message-wrapper:before {
-    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
-    color: inherit;
-    display: inline-block;
-    font-style: normal;
-    font-weight: inherit;
-    font-size: inherit;
-    line-height: 1;
-    text-decoration: underline;
-    position: relative;
-    z-index: 1;
-    alt: "";
-    text-decoration: none
-}
-
-.form-message-wrapper:before {
-    display: none
-}
-
-.form-message-wrapper:after,
-.form-message-wrapper:before {
-    content: "⚠"
-}
-
-.form-message-wrapper:before {
-    padding-right: 4.8px;
-    display: inline-block;
-    top: 0
-}
-
-.form-message-wrapper:after {
-    display: none
-}
-
-.form-message-wrapper:before {
-    padding-right: 3px;
-    top: 3px;
-}
-
-.is-error .form-message-wrapper {
-    display: flex
-}
-
-.sign-in-submit .form-button {
+.g-button {
     cursor: pointer;
     text-align: center;
     background: #F97300;
@@ -1049,4 +944,69 @@ main {
     white-space: normal;
     display: inline-block;
     border: none;
+}
+
+.text-container {
+    width: 100%;
+    margin: 18px 0;
+    padding: 14px 0;
+    background: #F9A700;
+    border-radius: 12px;
+    display: none;
+}
+
+.text-container .container {
+    margin: 0 14px;
+}
+
+.text-container .container .title {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: bold;
+    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+    color: #0030A7;
+}
+
+.text-container .container .notice {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+    color: #000;
+}
+
+.text-container .container #result {
+    margin: 20px 0;
+}
+
+.text-container .container #info {
+    margin: 20px 0;
+}
+
+.text-container .container #info input {
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+}
+
+.text-container .container .btn {
+    cursor: pointer;
+    text-align: center;
+    background: #0030A7;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    font-family: "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+    min-width: 28px;
+    padding: 18px 31px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 12px;
+    white-space: normal;
+    display: inline-block;
+    border: none;
+    margin-top: 10px;
 }
