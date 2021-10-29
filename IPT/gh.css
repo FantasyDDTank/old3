@@ -823,7 +823,7 @@ main {
 }
 
 .main .main-module .section-content .wrapper .wrapper-container .wrapper-background .wrapper-box .box button#three.active~.segmentnav-selection-background {
-    width: 85px;
+    width: 100px;
     transform: translateX(170px);
 }
 
