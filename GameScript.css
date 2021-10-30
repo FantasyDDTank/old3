@@ -347,7 +347,7 @@ body.lock {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 788px) {
     #header {
         overflow-y: hidden;
         max-height: none;
@@ -600,7 +600,7 @@ html #header~.header-blur {
     position: fixed;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 788px) {
     .header-blur {
         display: block;
         top: 0;

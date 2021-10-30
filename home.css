@@ -315,7 +315,7 @@ body.lock {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 788px) {
     #header {
         overflow-y: hidden;
         max-height: none;
@@ -548,7 +548,7 @@ html #header~.header-blur {
     position: fixed;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 788px) {
     .header-blur {
         display: block;
         top: 0;
@@ -903,164 +903,69 @@ main {
     animation: transform .3s ease;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-0 {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    visibility: hidden;
-    z-index: -1;
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-    height: 100px;
+#content-0 {
+    background-color: #fff;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform .4s ease, height .192s ease;
+    height: 0;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-0.show-0 {
-    position: static;
-    visibility: visible;
-    z-index: 1;
-    -webkit-transform: none;
-    transform: none;
-    -webkit-transition: -webkit-transform 300ms ease;
-    transition: -webkit-transform 300ms ease;
-    transition: transform 300ms ease;
-    transition: transform 300ms ease, -webkit-transform 300ms ease;
-    margin: 0;
-    overflow: hidden;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: auto;
+.rotateicon #content-0 {
+    transform: scaleY(1);
+    height: 100%;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-1 {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    visibility: hidden;
-    z-index: -1;
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-    height: 100px;
+#content-1 {
+    background-color: #fff;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform .4s ease, height .192s ease;
+    height: 0;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-1.show-1 {
-    position: static;
-    visibility: visible;
-    z-index: 1;
-    -webkit-transform: none;
-    transform: none;
-    -webkit-transition: -webkit-transform 300ms ease;
-    transition: -webkit-transform 300ms ease;
-    transition: transform 300ms ease;
-    transition: transform 300ms ease, -webkit-transform 300ms ease;
-    margin: 0;
-    overflow: hidden;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: auto;
+.rotateicon #content-1 {
+    transform: scaleY(1);
+    height: 100%;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-2 {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    visibility: hidden;
-    z-index: -1;
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-    height: 100px;
+#content-2 {
+    background-color: #fff;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform .4s ease, height .192s ease;
+    height: 0;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-2.show-2 {
-    position: static;
-    visibility: visible;
-    z-index: 1;
-    -webkit-transform: none;
-    transform: none;
-    -webkit-transition: -webkit-transform 300ms ease;
-    transition: -webkit-transform 300ms ease;
-    transition: transform 300ms ease;
-    transition: transform 300ms ease, -webkit-transform 300ms ease;
-    margin: 0;
-    overflow: hidden;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: auto;
+.rotateicon #content-2 {
+    transform: scaleY(1);
+    height: 100%;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-3 {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    visibility: hidden;
-    z-index: -1;
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-    height: 100px;
+#content-3 {
+    background-color: #fff;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform .4s ease, height .192s ease;
+    height: 0;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-3.show-3 {
-    position: static;
-    visibility: visible;
-    z-index: 1;
-    -webkit-transform: none;
-    transform: none;
-    -webkit-transition: -webkit-transform 300ms ease;
-    transition: -webkit-transform 300ms ease;
-    transition: transform 300ms ease;
-    transition: transform 300ms ease, -webkit-transform 300ms ease;
-    margin: 0;
-    overflow: hidden;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: auto;
+.rotateicon #content-3 {
+    transform: scaleY(1);
+    height: 100%;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-4 {
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    visibility: hidden;
-    z-index: -1;
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-    height: 100px;
+#content-4 {
+    background-color: #fff;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform .4s ease, height .192s ease;
+    height: 0;
 }
 
-.main .main-module .section-content .links-content .contain-container .small-container .container #content-4.show-4 {
-    position: static;
-    visibility: visible;
-    z-index: 1;
-    -webkit-transform: none;
-    transform: none;
-    -webkit-transition: -webkit-transform 300ms ease;
-    transition: -webkit-transform 300ms ease;
-    transition: transform 300ms ease;
-    transition: transform 300ms ease, -webkit-transform 300ms ease;
-    margin: 0;
-    overflow: hidden;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: auto;
+.rotateicon #content-4 {
+    transform: scaleY(1);
+    height: 100%;
 }
 
 .main .main-module .section-content .links-content .contain-container .small-container .container .content ul {
@@ -1115,11 +1020,19 @@ main {
 .grid-container .item {
     grid-column: span 1;
     width: calc(100% - 2px);
-    height: auto;
+    height: 0px;
     border-radius: 12px;
     border: 1px solid #F9CF00;
     background: initial;
     padding: 14px 0;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform .3s ease, height .305s ease;
+}
+
+.rotateicon .grid-container .item {
+    height: auto;
+    transform: scaleY(1); 
 }
 
 .grid-container .big-item {
